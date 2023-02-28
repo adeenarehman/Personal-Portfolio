@@ -57,7 +57,7 @@ const itemData = [
         title: "Personal Portfolio",
         client: 'Personal', 
         techno: 'React, Material UI, Bootstrap',
-        url: '',
+        url: 'https://personal-portfolio-11607.web.app',
         info: `Simone is a one-page resume, cv, vcard and bootstrap 5 personal portfolio react template with unique design, 
         made with precision and focus on an intuitive user experience. A design that will suit every use, and give your customers a 
         sense of true quality. The perfect personal portfolio template for beginners and professionals engineer. Designed and developed 
