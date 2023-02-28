@@ -1,0 +1,27 @@
+.mainContainerContact{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linkedinIconContact{
+    margin-right: 2%;
+    margin-left: 2%;
+    
+    color: white;
+}
+.linkedinIconContact:hover{
+    margin: 2%;
+    color: #0077b5;
+}
+
+.githubIconContact{
+    color: white;
+}
+.githubIconContact:hover{
+    margin: 2%;
+    color: black;
+}

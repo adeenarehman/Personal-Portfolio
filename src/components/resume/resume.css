@@ -1,0 +1,9 @@
+.mainContainer{
+    width: 100%;
+    height: inherit;
+    /* max-height: 200vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

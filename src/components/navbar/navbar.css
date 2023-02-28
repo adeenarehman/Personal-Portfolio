@@ -1,0 +1,29 @@
+.dataBox{
+    width: 100%;
+    background-image: '../../assets/1.jpg';
+}
+
+.Button{
+    color: #fff;
+}
+.Button:hover{
+    color: #dc3545
+}
+
+.linkedinIcon{
+    margin: 2%;
+    color: white;
+}
+.linkedinIcon:hover{
+    margin: 2%;
+    color: #0077b5;
+}
+
+.githubIcon{
+    margin: 2%;
+    color: white;
+}
+.githubIcon:hover{
+    margin: 2%;
+    color: black;
+}

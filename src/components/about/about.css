@@ -1,0 +1,17 @@
+.mainContainerAbout{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutDownloadButton{
+    margin-left: 4%;
+}
+
+.aboutDownloadButton:hover{
+    background-color: transparent;
+    color: #dc3545;
+}
