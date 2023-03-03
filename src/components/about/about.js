@@ -41,7 +41,7 @@ export default function about() {
                   </Typography>
                   <Typography color='grey' fontWeight={'bold'}  mt={'2%'}>
                   I take my work as a Web Developer seriously and this means I always ensure my skills are kept up to date within this 
-                  rapidly changing industry. Delivering work within time and budget which meets client’s requirements is my moto.
+                  rapidly changing industry.
                   </Typography>
                   <Typography color='grey' fontWeight={'bold'}  mt={'2%'}>
                    Delivering work within time and budget which meets client’s requirements is my moto.
