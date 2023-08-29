@@ -7,6 +7,7 @@ import Image from './Assets/1.png'
 import image2 from './Assets/3.png'
 import image3 from './Assets/2.png'
 import CloseIcon from '@mui/icons-material/Close';
+import { Slide, Fade } from "react-awesome-reveal";
 
 const style = {
     position: 'absolute',
@@ -58,7 +59,7 @@ const itemData = [
         client: 'Personal', 
         techno: 'React, Material UI, Bootstrap',
         url: 'https://personal-portfolio-11607.web.app',
-        info: `Simone is a one-page resume, cv, vcard and bootstrap 5 personal portfolio react template with unique design, 
+        info: `Adeena is a one-page resume, cv, vcard and bootstrap 5 personal portfolio react template with unique design, 
         made with precision and focus on an intuitive user experience. A design that will suit every use, and give your customers a 
         sense of true quality. The perfect personal portfolio template for beginners and professionals engineer. Designed and developed 
         keeping in mind the latest one page portfolio design standard.`
@@ -90,6 +91,7 @@ export default function Gallery() {
         <Box className='container'>
             {itemData.map((val, index) => {
                 return (
+                    <Fade cascade  damping={0.2}>
                     <div className='pics' key={index} onClick={() => { getDetails(val.imgSrc, val.title, val.client, val.techno, val.info, val.url) }}>
                         <Box className='imageProjectHeading'>
                         <img src={val.imgSrc} className='image' alt='projects'/>
@@ -98,6 +100,7 @@ export default function Gallery() {
                             </div>
                         </Box>
                     </div>
+                    </Fade>
                 )
             })}
 

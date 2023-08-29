@@ -2,6 +2,7 @@ import React from 'react'
 import './projects.css';
 import { Box, Typography } from '@mui/material'
 import Gallery from './../../gallery';
+// import { Slide, Fade } from "react-awesome-reveal";
 
 
 export default function projects() {

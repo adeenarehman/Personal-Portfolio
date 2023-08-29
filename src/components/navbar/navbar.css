@@ -9,6 +9,9 @@
 .Button:hover{
     color: #dc3545
 }
+.Button:focus{
+    color: #dc3545
+}
 
 .linkedinIcon{
     margin: 2%;
