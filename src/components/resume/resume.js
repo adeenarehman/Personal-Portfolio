@@ -25,37 +25,40 @@ export default function resume() {
         </Typography>
       </Box>
       {/* Content Box */}
-      <Box sx={{ width: '100%', height: '70%', display: 'flex', justifyContent: 'center', pb: 10 }}>
-        <Box sx={{ width: '85%', display: 'flex', justifyContent: 'space-evenly', flexDirection: 'column', }}>
+      <Box sx={{ width: '100%', height: '70%', display: 'flex', justifyContent: 'center', pb: 10, alignItems:'center' }}>
+        <Box sx={{ width: '85%', display: 'flex', justifyContent: 'space-evenly', flexDirection: 'column', alignItems:'center' }}>
           <Grid container> {/* Experience & Education Container */}
-            <Grid item sm={12} md={12} lg={6} display={'flex'} flexDirection={'column'} alignItems={'center'}> {/* Education Container */}
-              
-                  <Slide  cascade direction={"left"} damping={0.3}>
-                <Box sx={{ width: '95%', m: 2 }}>
+            <Grid item sm={12} md={12} lg={12} display={'flex'} flexDirection={'column'} > {/* Education Container */}
+              <Slide cascade direction={"left"} damping={0.3}>
+                <Box sx={{ width: '100%'}}>
                   <Typography variant='h5' fontWight='bold' color='#fff'>My Education</Typography>
-                  <Card sx={{ backgroundColor: '#111418', width: '100%', mt: 3, p: 1, borderRadius: 1.5 }}> {/* Masters Card */}
-                    <CardContent>
-                      <Chip variant='filled' color='error' label='2022 - 2024' />
-                      <Typography my={2} variant='h6' fontWight='bold' color='#fff'>MBA - Management</Typography>
-                      <Typography color='error'>Shaheed Zulfikar Ali Bhutto Institute of Science and Technology</Typography>
-                    </CardContent>
-                  </Card>
-                  {/* </Slide> */}
-                  {/* <Slide cascade direction={"left"} delay={1e2}> */}
-                  <Card sx={{ backgroundColor: '#111418', width: '100%', mt: 3, p: 1, borderRadius: 1.5 }}> {/* Bachelors Card */}
-                    <CardContent>
-                      <Chip variant='filled' color='error' label='2017 - 2022' />
-                      <Typography my={2} variant='h6' fontWight='bold' color='#fff'>Bachelors of Science(Computer Science)</Typography>
-                      <Typography color='error'>Karachi Institute of Economics and Technology</Typography>
-                    </CardContent>
-                  </Card>
+                  <Grid container sx={{display:'flex', justifyContent:'space-between'}}>
+                  <Grid item sm={12} md={12} lg={5} sx={{ mt:3, display: 'flex', flexDirection: 'row' }}>
+                    <Card sx={{ backgroundColor: '#111418', width: '100%',  p: 1, borderRadius: 1.5 }}> {/* Masters Card */}
+                      <CardContent>
+                        <Chip variant='filled' color='error' label='2022 - 2024' />
+                        <Typography my={2} variant='h6' fontWight='bold' color='#fff'>MBA - Management</Typography>
+                        <Typography color='error'>Shaheed Zulfikar Ali Bhutto Institute of Science and Technology</Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item sm={12} md={12} lg={5} sx={{ mt:3, display: 'flex', flexDirection: 'row' }}>
+                    <Card sx={{ backgroundColor: '#111418', width: '100%', p: 1, borderRadius: 1.5 }}> {/* Bachelors Card */}
+                      <CardContent>
+                        <Chip variant='filled' color='error' label='2017 - 2022' />
+                        <Typography my={2} variant='h6' fontWight='bold' color='#fff'>Bachelors of Science(Computer Science)</Typography>
+                        <Typography color='error'>Karachi Institute of Economics and Technology</Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  </Grid>
                 </Box>
-                  </Slide>
-             
+              </Slide>
+
             </Grid>
-            <Grid item xs={12} sm={12} md={12} lg={6} display={'flex'} flexDirection={'column'} alignItems={'center'}> {/* Experience Container */}
+            <Grid item xs={12} sm={12} md={12} lg={12} display={'flex'} flexDirection={'column'} alignItems={'center'}> {/* Experience Container */}
               <Slide cascade direction={"right"}>
-                <Box sx={{ width: '95%', m: 2 }}>
+                <Box sx={{ width: '100%', mt:3 }}>
                   <Typography variant='h5' fontWight='bold' color='#fff'>My Experience</Typography>
                   <Card sx={{ backgroundColor: '#111418', width: '100%', mt: 3, p: 1, borderRadius: 1.5 }}> {/* SJJ Card */}
                     <CardContent>
@@ -63,16 +66,39 @@ export default function resume() {
                       <Typography my={2} variant='h6' fontWight='bold' color='#fff'>React Js Developer</Typography>
                       <Typography color='error'>SJJ Digital Healthcare</Typography>
                       <Typography my={2} variant='body1' fontWight='bold' color='#fff'>
-                        •	Develop and deploy new user-facing features for the website and admin dashboard using React Js.
+                        •	Enhanced team productivity by leading migration to React Hooks, resulting in 25% faster feature development and code maintenance.
                       </Typography>
                       <Typography my={2} variant='body1' fontWight='bold' color='#fff'>
-                        •	Building reusable components using front-end libraries for future use.
+                        •	Developed dynamic and interactive web applications using React, resulting in improved user engagement and increased time-on-site metrics.
                       </Typography>
                       <Typography my={2} variant='body1' fontWight='bold' color='#fff'>
-                        •	Translating designs and wireframes into high-quality code.
+                        •	 Collaborated with UI / UX designers to transform wireframes and mockups into pixel-perfect, responsive web pages.
                       </Typography>
                       <Typography my={2} variant='body1' fontWight='bold' color='#fff'>
-                        •	Working on Node Js for server & MySQL for back-end.
+                        •	Integrated third-party APIs to enhance functionality, including payment gateways and social media sharing.
+                      </Typography>
+                      <Typography my={2} variant='body1' fontWight='bold' color='#fff'>
+                        •	 Managed and developed web panel and website using React Js. Developed backend solutions using Node.js and MySQL to ensure robust and efficient data management.
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                  <Card sx={{ backgroundColor: '#111418', width: '100%', mt: 3, p: 1, borderRadius: 1.5 }}> {/* SJJ Card */}
+                    <CardContent>
+                      <Chip variant='filled' color='error' label='Oct 2021 - Sept 2022' />
+                      <Typography my={2} variant='h6' fontWight='bold' color='#fff'>Freelancer</Typography>
+                      <Typography color='error'>Remote</Typography>
+                      <Typography my={2} variant='body1' fontWight='bold' color='#fff'>
+                        •	Present Present Executed multiple freelance projects including
+                        website and admin dashboard development.
+                      </Typography>
+                      <Typography my={2} variant='body1' fontWight='bold' color='#fff'>
+                        •	Leveraged front-end technologies such as React and utilized backend
+                        technologies to deliver comprehensive solutions.
+                      </Typography>
+                      <Typography my={2} variant='body1' fontWight='bold' color='#fff'>
+                        •	Collaborated closely with clients to ensure project alignment with
+                        their vision and business goals.
+
                       </Typography>
                     </CardContent>
                   </Card>
@@ -85,29 +111,29 @@ export default function resume() {
             {/* <Box sx={{ width:'90%', display:'flex', justifyContent: 'space-evenly', flexDirection: 'column',}}> */}
             <Grid container> {/* SKills Heading Container */}
               <Grid item xs={12} sm={12} md={12} lg={6} display={'flex'} flexDirection={'column'} alignItems={'center'}>
-                <Box sx={{ width: '95%', m: 2 }}>
+                <Box sx={{ width: '100%', mt:3 }}>
                   <Typography variant='h5' fontWight='bold' color='#fff'>My Skills</Typography>
                 </Box>
               </Grid>
             </Grid>
             <Grid container> {/* SKills Data Container */}
               <Grid item xs={12} sm={12} md={12} lg={6} display={'flex'} flexDirection={'column'} alignItems={'center'}>
-                <Box sx={{ width: '95%' }}>
-                  <Slide  direction={"up"}>
+                <Box sx={{ width: '100%' }}>
+                  <Slide direction={"up"}>
                     <Box mt={3} width={'100%'}>
                       <Typography variant={'body1'} color={'#fff'} >HTML/CSS</Typography>
                       <Typography variant={'body1'} color={'#fff'} >90%</Typography>
                       <LinearProgress variant="determinate" color="error" value={90} />
                     </Box>
                   </Slide>
-                  <Slide  direction={"up"} delay={1e2}>
+                  <Slide direction={"up"} delay={1e2}>
                     <Box mt={3} width={'100%'}>
                       <Typography variant={'body1'} color={'#fff'}>React</Typography>
                       <Typography variant={'body1'} color={'#fff'}>90%</Typography>
                       <LinearProgress variant="determinate" color="error" value={90} />
                     </Box>
                   </Slide>
-                  <Slide  direction={"up"} delay={1e2}>
+                  <Slide direction={"up"} delay={1e2}>
                     <Box mt={3} width={'100%'}>
                       <Typography variant={'body1'} color={'#fff'}>React Redux</Typography>
                       <Typography variant={'body1'} color={'#fff'}>70%</Typography>
@@ -117,20 +143,20 @@ export default function resume() {
                 </Box>
               </Grid>
               <Grid item xs={12} sm={12} md={12} lg={6} display={'flex'} flexDirection={'column'} alignItems={'center'}>
-                <Box sx={{ width: '95%',  }}>
-                  <Slide  direction={"up"}>
+                <Box sx={{ width: '100%', }}>
+                  <Slide direction={"up"}>
                     <Box mt={3} width={'100%'}>
                       <Typography variant={'body1'} color={'#fff'}>Firebase</Typography><Typography variant={'body1'} color={'#fff'}>70%</Typography>
                       <LinearProgress variant="determinate" color="error" value={70} />
                     </Box>
                   </Slide>
-                  <Slide  direction={"up"} delay={1e2}>
+                  <Slide direction={"up"} delay={1e2}>
                     <Box mt={3} width={'100%'}>
                       <Typography variant={'body1'} color={'#fff'}>MySQL</Typography><Typography variant={'body1'} color={'#fff'}>60%</Typography>
                       <LinearProgress variant="determinate" color="error" value={60} />
                     </Box>
                   </Slide>
-                  <Slide  direction={"up"} delay={1e2}>
+                  <Slide direction={"up"} delay={1e2}>
                     <Box mt={3} width={'100%'}>
                       <Typography variant={'body1'} color={'#fff'} >NodeJS</Typography><Typography color={'#fff'}>60%</Typography>
                       <LinearProgress variant="determinate" color="error" value={60} />
