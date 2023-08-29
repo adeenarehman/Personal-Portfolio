@@ -116,8 +116,8 @@ export default function resume() {
                 </Box>
               </Grid>
             </Grid>
-            <Grid container> {/* SKills Data Container */}
-              <Grid item xs={12} sm={12} md={12} lg={6} display={'flex'} flexDirection={'column'} alignItems={'center'}>
+            <Grid container sx={{display:'flex', justifyContent:'space-between', alignItems:'center', flexDirection:'row'}}> {/* SKills Data Container */}
+              <Grid item xs={12} sm={12} md={12} lg={5} display={'flex'} flexDirection={'column'} alignItems={'center'}>
                 <Box sx={{ width: '100%' }}>
                   <Slide direction={"up"}>
                     <Box mt={3} width={'100%'}>
@@ -142,7 +142,7 @@ export default function resume() {
                   </Slide>
                 </Box>
               </Grid>
-              <Grid item xs={12} sm={12} md={12} lg={6} display={'flex'} flexDirection={'column'} alignItems={'center'}>
+              <Grid item xs={12} sm={12} md={12} lg={5} display={'flex'} flexDirection={'column'} alignItems={'center'}>
                 <Box sx={{ width: '100%', }}>
                   <Slide direction={"up"}>
                     <Box mt={3} width={'100%'}>
