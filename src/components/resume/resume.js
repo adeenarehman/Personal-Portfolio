@@ -156,7 +156,7 @@ export default function resume() {
                         <Typography variant={'body1'} fontWeight={'bold'} color={'#fff'}>PHP</Typography>
                         <Typography variant={'body1'} fontWeight={'bold'} color={'#fff'}>75%</Typography>
                       </Box>
-                      <LinearProgress variant="determinate" color="error" value={70} />
+                      <LinearProgress variant="determinate" color="error" value={75} />
                     </Box>
                   </Slide>
                 </Box>
@@ -169,7 +169,7 @@ export default function resume() {
                         <Typography variant={'body1'} fontWeight={'bold'} color={'#fff'}>Firebase</Typography>
                         <Typography variant={'body1'} fontWeight={'bold'} color={'#fff'}>80%</Typography>
                       </Box>
-                      <LinearProgress variant="determinate" color="error" value={70} />
+                      <LinearProgress variant="determinate" color="error" value={80} />
                     </Box>
                   </Slide>
                   <Slide direction={"up"} delay={1e2}>
@@ -187,16 +187,16 @@ export default function resume() {
                         <Typography variant={'body1'} fontWeight={'bold'} color={'#fff'} >NodeJS</Typography>
                         <Typography variant={'body1'} fontWeight={'bold'} color={'#fff'}>50%</Typography>
                       </Box>
-                      <LinearProgress variant="determinate" color="error" value={60} />
+                      <LinearProgress variant="determinate" color="error" value={50} />
                     </Box>
                   </Slide>
                   <Slide direction={"up"} delay={1e2}>
                     <Box mt={3} width={'100%'}>
                       <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
                         <Typography variant={'body1'} fontWeight={'bold'} color={'#fff'} >DevOps</Typography>
-                        <Typography variant={'body1'} fontWeight={'bold'} color={'#fff'}>65%</Typography>
+                        <Typography variant={'body1'} fontWeight={'bold'} color={'#fff'}>70%</Typography>
                       </Box>
-                      <LinearProgress variant="determinate" color="error" value={60} />
+                      <LinearProgress variant="determinate" color="error" value={70} />
                     </Box>
                   </Slide>
                 </Box>
