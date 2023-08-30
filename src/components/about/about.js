@@ -38,18 +38,13 @@ export default function about() {
                   I'm <spam style={{color:'#dc3545'}}>Adeena Rehman,</spam> a Web Developer
                   </Typography>
                 <Typography color='grey' fontWeight={'bold'}  mt={'2%'}>
-                  I am a positive, enthusiastic and competent freelance Web Developer who, over the years, has built up a diverse range of skills, 
-                  qualities and attributes that guarantee I will perform highly. I have 2 years experienced React Developer with hands-on 
-                  experience in identifying web-based user interactions along with designing & implementing highly-responsive user interface 
-                  components.
+                I am an optimistic, enthusiastic and competent freelance Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes that guarantee I will perform highly. I am a React Developer with three years of hands-on experience in identifying web-based user interactions along with designing & implementing highly responsive user interface components.
                   </Typography>
                   <Typography color='grey' fontWeight={'bold'}  mt={'2%'}>
-                  I take my work as a Web Developer seriously and this means I always ensure my skills are kept up to date within this 
-                  rapidly changing industry.
+                  I take my work as a Web Developer seriously and always ensure my skills are kept up to date within this rapidly changing industry.
                   </Typography>
                   <Typography color='grey' fontWeight={'bold'}  mt={'2%'}>
-                   Delivering work within time and budget which meets the client’s requirements is my motto.
-                  </Typography>
+                  Delivering work within time and budget which meets the client’s requirements is my motto.                  </Typography>
               </Box>
               </Slide>
             </Grid>
